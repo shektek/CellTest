@@ -158,6 +158,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppHost.h" />
+    <ClInclude Include="Graph\Cell.h" />
+    <ClInclude Include="Graph\Graph.h" />
+    <ClInclude Include="Graph\GraphGenerators.h" />
+    <ClInclude Include="Graph\ScaleUnit.h" />
     <ClInclude Include="ImageCache.h" />
     <ClInclude Include="RenderSDL.h" />
     <ClInclude Include="SDLHost.h" />

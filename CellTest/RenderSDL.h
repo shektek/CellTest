@@ -9,6 +9,7 @@
 #include "include/SDL2/SDL.h"
 #include "include/SDL2/SDL_image.h"
 #include "ImageCache.h"
+#include "Graph/Graph.h"
 
 class RenderSDL
 {
@@ -48,6 +49,7 @@ public:
 
 	//put your render functions in here
 	void RenderBorders();
+	void RenderGraph(Graph::Graph graph);
 
 	void FinishRender();
 

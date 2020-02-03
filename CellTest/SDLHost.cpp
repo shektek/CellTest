@@ -71,7 +71,7 @@ void SDLHost::Exec()
 
 			//render all your stuff
 			_renderSdl->RenderBorders();
-			_renderSdl->RenderGrid();
+			//_renderSdl->RenderGraph();
 
 			_renderSdl->FinishRender();
 
